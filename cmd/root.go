@@ -1,5 +1,7 @@
 package cmd
 
+var version = "dev"
+
 import (
 	"fmt"
 	"os"
@@ -10,6 +12,7 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "menv",
 	Short: "menv - Lmod/Tcl module environment manager",
+	Version: version,
 	Long:  "menv is a CLI tool to easily save, load, and manage HPC module lists.",
 }
 
