@@ -8,8 +8,6 @@
     <img src="https://img.shields.io/badge/License-MIT-00A078?labelColor=0F234B&style=flat-square" alt="License">
   </p>
 </div>
-![Version](https://img.shields.io/github/v/release/Thedtk24/menv?color=00A078&style=flat-square)
-![License](https://img.shields.io/github/license/Thedtk24/menv?color=0F234B&style=flat-square)
 
 ---
 
