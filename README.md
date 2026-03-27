@@ -1,7 +1,7 @@
 <div align="center">
   <h1><strong><span style="color: #0F234B;">m</span><span style="color: #00A078;">env</span></strong></h1>
   <p><b>Modern Environment Management for HPC</b></p>
-  <p><b>Explore the documentation: <a href="https://thedarthur.com/pages/menv" style="color: #00A078; text-decoration: none;">thedarthur.com/pages/menv</a></b></p>
+  <p><b>Explore the documentation: <a href="https://thedarthur.com/menv.html" style="color: #00A078; text-decoration: none;">thedarthur.com/pages/menv</a></b></p>
   <p>
     <img src="https://img.shields.io/badge/Go-%3E%3D%201.21-00A078?labelColor=0F234B&style=flat-square&logo=go" alt="Go Version">
     <img src="https://img.shields.io/github/v/release/Thedtk24/menv?label=Version&color=00A078&labelColor=0F234B&style=flat-square" alt="Version">
