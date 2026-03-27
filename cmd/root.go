@@ -1,7 +1,5 @@
 package cmd
 
-var version = "dev"
-
 import (
 	"fmt"
 	"os"
@@ -9,11 +7,18 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var version = "dev"
+
+func SetVersion(v string) {
+	version = v
+	rootCmd.Version = v
+}
+
 var rootCmd = &cobra.Command{
-	Use:   "menv",
-	Short: "menv - Lmod/Tcl module environment manager",
+	Use:     "menv",
+	Short:   "menv - Lmod/Tcl module environment manager",
 	Version: version,
-	Long:  "menv is a CLI tool to easily save, load, and manage HPC module lists.",
+	Long:    "menv is a CLI tool to easily save, load, and manage HPC module lists.",
 }
 
 func Execute() {
