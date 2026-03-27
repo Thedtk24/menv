@@ -35,7 +35,7 @@ TMP_DIR=$(mktemp -d)
 trap 'rm -rf -- "${TMP_DIR}"' EXIT
 
 cd "${TMP_DIR}"
-echo "📥 Downloading from ${DOWNLOAD_URL}..."
+echo "Downloading from ${DOWNLOAD_URL}..."
 curl -sL --fail -o "${TARBALL}" "${DOWNLOAD_URL}" || (echo "Download failed"; exit 1)
 
 echo "Extracting..."
