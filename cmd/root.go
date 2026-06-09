@@ -21,6 +21,10 @@ var rootCmd = &cobra.Command{
 	Long:    "menv is a CLI tool to easily save, load, and manage HPC module lists.",
 }
 
+func init() {
+	rootCmd.SetVersionTemplate("{{.Name}} version {{.Version}} by Thed Arthur TOKO D.\n")
+}
+
 func Execute() {
 	if err := rootCmd.Execute(); err != nil {
 		fmt.Fprintf(os.Stderr, "%s Error: %v\n", GetIcon("error"), err)
